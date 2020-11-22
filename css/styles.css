@@ -1,0 +1,26 @@
+.navigation-list-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.contact-tel:hover,
+.contact-tel:focus,
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #2196f3;
+}
+.contact-tel,
+.contact-mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
