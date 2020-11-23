@@ -1,5 +1,56 @@
+:root {
+  --accent-color: #2196f3;
+  --main-font:"Roboto", sans-serif;
+}
+body {
+  font-family: var(--main-font);
+}
+.contact {
+  font-style: normal;
+}
+/* ===============specification===============*/
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* ===============end specification===============*/
+/* =============== HEADER ===============*/
+.logo-link{
+
+}
+.logo-web {
+font-family:'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,192;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo-studio{
+font-family:'Raleway', sans-serif;
+font: weight 700;
+font-size: 26px;
+line-height: 1,192;
+letter-spacing: 0.03em;
+color: #000000;
+}
 .navigation-list-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font)
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 142;
@@ -8,19 +59,92 @@
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus,
-.contact-tel:hover,
-.contact-tel:focus,
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #2196f3;
+.contact-header-tel:hover,
+.contact-header-tel:focus,
+.contact-header-mail:hover,
+.contact-header-mail:focus,
+.modal-btn:hover,
+.modal-btn:focus,
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: var(--accent-color)
 }
-.contact-tel,
-.contact-mail {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+.contact-header-tel,
+.contact-header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 142;
   letter-spacing: 0.02em;
   color: #757575;
 }
+/* =============== HEADER ===============*/
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #ffffff;*/
+}
+
+.modal-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
+  /* color: #ffffff; */
+}
+/* =============== END HEADER ===============*/
+
+/* =============== Features ===============*/
+.features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.features-description{
+font: weight 400;
+font-size: 14px;
+line-height: 1,714;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* =============== end features ===============*/
+/* =============== tasks ===============*/
+.task{
+font-weight: 700;
+font-size: 36px;
+line-height: 1,166;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/* =============== end tasks ===============*/
+/* ===============team ===============*/
+.team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1,166;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-name {  
+font-weight: 500;
+font-size: 16px;
+line-height:1,187;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-designation{
+font-weight: 400;
+font-size: 16px;
+line-height:1,187;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* =============== end team ===============*/
+/* ===============footer ===============*/
+
+/* ===============end footer ===============*/
