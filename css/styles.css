@@ -51,7 +51,7 @@ color: #000000;
 .navigation-list-link,
 .contact-header-tel,
 .contact-header-mail {
-  font-family: var(--main-font)
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 142;
@@ -106,7 +106,7 @@ text-transform: uppercase;
 color: #212121;
 }
 .features-description{
-font: weight 400;
+font-weight: 400;
 font-size: 14px;
 line-height: 1,714;
 letter-spacing: 0.03em;
