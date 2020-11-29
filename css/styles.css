@@ -48,7 +48,7 @@ color: var(--accent-color)
 .logo-studio{
 color: #000000;
 }
-.navigation-list-link,
+.link,
 .contact-header-tel,
 .contact-header-mail {
   font-family: var(--main-font);
@@ -58,8 +58,8 @@ color: #000000;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.navigation-list-link:hover,
-.navigation-list-link:focus,
+.link:hover,
+.link:focus,
 .contact-header-tel:hover,
 .contact-header-tel:focus,
 .contact-header-mail:hover,
@@ -67,6 +67,9 @@ color: #000000;
 .modal-btn:hover,
 .modal-btn:focus {
   color: var(--accent-color)
+}
+.navigation-list .link.is-current {
+  color: #2196f3;
 }
 .contact-header-tel,
 .contact-header-mail {
@@ -171,7 +174,7 @@ background: #2F303A;
 .filtr-btn {
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1,625;
 letter-spacing: 0.03em;
 color: #212121;
 }
@@ -188,6 +191,9 @@ font-size: 16px;
 line-height: 1,875;
 letter-spacing: 0.03em;
 color: #757575;
+}
+.footer-logo-studio {
+color: #FFFFFF;
 }
 /* ===============end portfolio page ===============*/
 
